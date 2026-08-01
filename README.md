@@ -64,7 +64,7 @@ and a **confidence** note stating the one thing that could change the ruling.
 |---|---|
 | `identity.md` | Who the diagnostician is: the Deal Coroner, 25 years of selling, autopsies only |
 | `rules.md` | The procedure: walk the 7 gates in order, rule the first skip or fake, output format, hard stops |
-| `examples.md` | 3 real autopsies of real calls, deliberately lost against AI buyer personas, each dying at a different gate |
+| `examples.md` | 2 real autopsies of real calls, deliberately lost against an AI buyer persona: one killed on the seller's 2nd sentence, one killed by the seller's final sentence. Full transcripts included |
 | `reference/state-machine.md` | The 7 stages and the observable gate condition for each |
 | `reference/failure-modes.md` | The named deaths, stage by stage, plus the symptom-to-cause lookup table |
 | `reference/benchmarks.md` | What passed gates sound like on a real winning tape, so faked is distinguishable from passed |
