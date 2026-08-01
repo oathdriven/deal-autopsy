@@ -96,8 +96,8 @@ script, where every stage is insurance for a later stage. Full framework:
 
 ---
 
-Built by Ryan (RyMac). 25 years selling, 71% close rate at a $30K price point,
-and the tapes to prove the machine works both ways: run clean, it closes; skip a
-gate, this folder finds it. The framework: [committoclose.com](https://committoclose.com).
+Built by Ryan (RyMac). 25 years selling, as seen on Entrepreneur on Fire, and the
+tapes to prove the machine works both ways: run clean, it closes; skip a gate, this
+folder finds it. The framework: [committoclose.com](https://committoclose.com).
 The community, where the sparring calls and the breakdowns live:
 [skool.com/commit-to-close](https://skool.com/commit-to-close/about).
