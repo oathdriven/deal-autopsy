@@ -1,17 +1,16 @@
 # Examples: 2 autopsies, opposite deaths
 
-<!-- STATUS: complete. Both autopsies are real rulings on real transcripts (appendix). -->
-
 These are real calls, really lost, against an AI buyer persona built for sales
 sparring: Dr. David Chen, a jaded chiropractor who has been burned for $24K by a
 marketing agency, takes calls between patients, fishes for the price early, and
 punishes bad selling. The 2 bodies bracket the thesis from opposite ends:
 
-- **Autopsy 1** is the earliest possible kill: the deal died on the seller's 2nd
-  sentence, and the death was not announced until 3 minutes later.
-- **Autopsy 2** is the latest possible kill: 10 and a half minutes of genuinely good
-  selling, a banked commitment, a handled objection, a prospect saying "the price
-  isn't the issue," and then the seller killed the deal with his own final sentence.
+- **Autopsy 1** is the earliest possible kill: the deal died 23 seconds in, on the
+  2nd substantive thing the seller said, and the death was not announced until 3
+  minutes later.
+- **Autopsy 2** is the latest possible kill: 11 minutes of genuinely good selling, a
+  banked commitment, a handled objection, a prospect saying "the price isn't the
+  issue," and then the seller killed the deal with his own final question.
 
 Same seller, same prospect, same product. The only variable is which gate got skipped,
 which is the point of the tool.
@@ -37,7 +36,7 @@ against. Named failure mode: the premature pitch (reference/
 failure-modes.md, stage-2).
 
 TIME OF DEATH
-~0:21, the seller's 2nd substantive line: "So it costs four thousand
++00:23, the seller's 2nd substantive line: "So it costs four thousand
 dollars to get started, and it's two thousand dollars a month... Is
 that something you wanted to do?" The call ran 3 more minutes. It was
 already dead.
@@ -61,13 +60,13 @@ stage-4 present     N/A       Feature fragments surfaced under
 stage-5 test-close  N/A       Price was already out at 0:21 with the
                     stack unflushed.
 stage-6 close       N/A       Attempted twice with zero insurance
-                    ("Is that something you wanted to do?" at 0:21,
-                    "Would you like to get started?" at 3:00).
+                    ("Is that something you wanted to do?" at +00:23,
+                    "Would you like to get started?" at +03:00).
 
 THE CHAIN
 1. No exam ran, so the pitch had nothing to attach to. The prospect
-   said so at 0:35: "You kind of jumped right into the price there. I
-   don't even know what you'd do yet."
+   said so at +00:35: "You kind of jumped right into the price there.
+   I don't even know what you'd do yet."
 2. With no pain on the table, the prospect ran the diagnosis ON HIMSELF,
    unasked: he volunteered a $24K agency burn ("I paid a marketing
    agency four grand a month for six months and got nothing") and his
@@ -79,7 +78,7 @@ THE CHAIN
    my time."
 4. The old scar surfaced unspaded ("sounds a lot like what I already
    got burned on") with no commitment banked to call it out against.
-5. Death announced at 3:04, and the prospect performed the autopsy
+5. Death announced at +03:04, and the prospect performed the autopsy
    himself: "You jump straight to price. You can't tell me what kind of
    results to expect. And honestly, it sounds a lot like what I already
    got burned on. I'm gonna pass."
@@ -101,7 +100,7 @@ death, the chain from stage-2 does.
 
 ## Autopsy 2: the deal that died at the finish line
 
-An 11:05 call. The machine ran well: frame landed, commitment banked, a real revenue
+An 11:08 call. The machine ran well: frame landed, commitment banked, a real revenue
 exam, the true objection surfaced early and was handled to the prospect's stated
 satisfaction. The prospect said the price was not the issue. The deal still died, in
 the seller's own closing sentence. Full transcript in the appendix; the
@@ -236,67 +235,68 @@ are controlled failures with authentic wreckage.
 
 ## Appendix: the bodies (full transcripts, raw)
 
-Speaker "closectl spar: david-chen v1" is the AI buyer persona. "User" is the seller.
-Transcription errors are preserved ("patience" for patients, "quad code" for Claude
-Code): the coroner works from the body as found.
+Speaker "closectl spar: david-chen v1" is the AI buyer persona (closectl is the
+sales-sparring tool the persona runs on). "User" is the seller. [+MM:SS] markers are
+each utterance's start time from the raw call log. Transcription errors are preserved
+("patience" for patients, "quad code" for Claude Code): the coroner works from the
+body as found.
 
 ### Transcript 1 (Autopsy 1)
 
 ```
-closectl spar: david-chen v1: This is David.
-User: Hey, David. How are you doing?
-closectl spar: david-chen v1: Doing alright. Busy day. What can I do for you?
-User: Yeah. We had a scheduled appointment right now to talk about my AI agent
-  system that can activate your database and get you more patience.
-closectl spar: david-chen v1: Yeah. I remember. Go ahead.
-User: Yeah. So it costs four thousand dollars to get started, and it's two
-  thousand dollars a month, and I can have it ready in seven weeks. Is that
-  something you wanted to do?
-closectl spar: david-chen v1: I mean, you kind of jumped right into the price
-  there. I don't even know what you'd do yet. What is this?
-User: Oh, yeah. I I I I use AI agents to talk to your database.
-closectl spar: david-chen v1: Okay. What does that actually mean for my
-  practice? Like, what's the outcome here?
-User: That'll come as you get you get some more patients.
-closectl spar: david-chen v1: Look. I've heard that before. I paid a marketing
-  agency four grand a month for six months and got got nothing out of it. So
-  you're gonna have to do better than you'll get more patience. What
+[+00:00] closectl spar: david-chen v1: This is David.
+[+00:03] User: Hey, David. How are you doing?
+[+00:06] closectl spar: david-chen v1: Doing alright. Busy day. What can I do
+  for you?
+[+00:09] User: Yeah. We had a scheduled appointment right now to talk about my
+  AI agent system that can activate your database and get you more patience.
+[+00:21] closectl spar: david-chen v1: Yeah. I remember. Go ahead.
+[+00:23] User: Yeah. So it costs four thousand dollars to get started, and
+  it's two thousand dollars a month, and I can have it ready in seven weeks. Is
+  that something you wanted to do?
+[+00:35] closectl spar: david-chen v1: I mean, you kind of jumped right into
+  the price there. I don't even know what you'd do yet. What is this?
+[+00:41] User: Oh, yeah. I I I I use AI agents to talk to your database.
+[+00:48] closectl spar: david-chen v1: Okay. What does that actually mean for
+  my practice? Like, what's the outcome here?
+[+00:54] User: That'll come as you get you get some more patients.
+[+00:59] closectl spar: david-chen v1: Look. I've heard that before. I paid a
+  marketing agency four grand a month for six months and got got nothing out of
+  it. So you're gonna have to do better than you'll get more patience. What
   specifically does your thing do?
-User: It it uses l l m AI agents like claw code to send out messages to your
-  database.
-closectl spar: david-chen v1: Okay. So it messages my existing patients. Then
-  what? Um, what are they supposed to do? Uh, book an appointment. And who's
-  managing that? when they
-User: Yeah. The they book an appointment, and then, um, it's fully managed
-  service. So I'll manage it to make sure that it's working, and they just...
-  they booked appointment. And then that way, you get people back into your
-  practice.
-closectl spar: david-chen v1: I mean, reactivating old patients? Okay. that's
-  not the worst idea. But I'm still not totally clear on how this is different
-  from just sending an email blast. What makes it the AI?
-User: I'm using quad code.
-closectl spar: david-chen v1: I don't. I'm not sure what that means for my
-  patients. honestly. Look, I've got a busy practice. I don't need a tech demo.
-  Um, what's the actual result? like, uh, how many patients am I getting back?
-  And what's your track record with other clinics?
-User: So you... it depends on the size of your database. But it's only four
-  thousand dollars to get started, so just a couple of patients and and it'll
-  work for you.
-closectl spar: david-chen v1: A couple patients. I mean, that doesn't even
-  cover the startup cost. I'm doing about a hundred grand a month. I don't need
-  a couple patients. That's not worth my time.
-User: Well, would you like to get started?
-closectl spar: david-chen v1: No. I don't think so. Uh, you haven't told me
-  anything that makes me confident this works. You jump straight to price. You
-  can't tell me what kind of results to expect. And honestly, it sounds a lot
-  like what I already got burned on. I'm gonna pass.
-User: Okay. Thank you for your time.
-closectl spar: david-chen v1: Yeah. Take care.
+[+01:16] User: It it uses l l m AI agents like claw code to send out messages
+  to your database.
+[+01:26] closectl spar: david-chen v1: Okay. So it messages my existing
+  patients. Then what? Um, what are they supposed to do? Uh, book an
+  appointment. And who's managing that? when they
+[+01:35] User: Yeah. The they book an appointment, and then, um, it's fully
+  managed service. So I'll manage it to make sure that it's working, and they
+  just... they booked appointment. And then that way, you get people back into
+  your practice.
+[+01:53] closectl spar: david-chen v1: I mean, reactivating old patients?
+  Okay. that's not the worst idea. But I'm still not totally clear on how this
+  is different from just sending an email blast. What makes it the AI?
+[+02:08] User: I'm using quad code.
+[+02:18] closectl spar: david-chen v1: I don't. I'm not sure what that means
+  for my patients. honestly. Look, I've got a busy practice. I don't need a
+  tech demo. Um, what's the actual result? like, uh, how many patients am I
+  getting back? And what's your track record with other clinics?
+[+02:34] User: So you... it depends on the size of your database. But it's
+  only four thousand dollars to get started, so just a couple of patients and
+  and it'll work for you.
+[+02:46] closectl spar: david-chen v1: A couple patients. I mean, that doesn't
+  even cover the startup cost. I'm doing about a hundred grand a month. I don't
+  need a couple patients. That's not worth my time.
+[+03:00] User: Well, would you like to get started?
+[+03:04] closectl spar: david-chen v1: No. I don't think so. Uh, you haven't
+  told me anything that makes me confident this works. You jump straight to
+  price. You can't tell me what kind of results to expect. And honestly, it
+  sounds a lot like what I already got burned on. I'm gonna pass.
+[+03:20] User: Okay. Thank you for your time.
+[+03:23] closectl spar: david-chen v1: Yeah. Take care.
 ```
 
 ### Transcript 2 (Autopsy 2)
-
-[+MM:SS] markers are each utterance's start time from the raw call log.
 
 ```
 [+00:00] closectl spar: david-chen v1: This is David.

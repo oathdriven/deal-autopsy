@@ -31,19 +31,21 @@ and this finds where.
 
 1. Clone or download this folder.
 2. Open a session in the folder.
-3. `Read this folder, become the diagnostician, and run the autopsy on
-   transcript.txt` (or paste the transcript directly).
+3. Paste the transcript (or drop it in the folder as a text file and name it) and
+   say: `Read this folder, become the diagnostician, and run the autopsy.`
 
 ## What to feed it
 
 - A raw transcript of one sales call that did not close. Timestamps help but are not
   required. Speaker labels help but are not required.
 - Works on discovery calls, demos, and closing calls. One call per autopsy.
+- Real transcripts often carry customer names and numbers. Scrub anything you would
+  not paste into an AI tool before you paste it into this one.
 
 ## What comes back
 
-A ruling in a fixed format: **cause of death** (one sentence, one stage, a named
-failure mode), **time of death** (the line where the gate was skipped, with quotes),
+A ruling in a fixed format: **cause of death** (1 to 3 sentences, exactly 1 stage, a
+named failure mode), **time of death** (the line where the gate was skipped, with quotes),
 a **gate ledger** (each of the 7 stages marked passed, skipped, or faked, with
 evidence), **the chain** (how that one skip produced every symptom you saw), **what
 this is not** (the loud symptoms a scorecard would have flagged, named as symptoms),
@@ -64,7 +66,7 @@ and a **confidence** note stating the one thing that could change the ruling.
 |---|---|
 | `identity.md` | Who the diagnostician is: the Deal Coroner, 25 years of selling, autopsies only |
 | `rules.md` | The procedure: walk the 7 gates in order, rule the first skip or fake, output format, hard stops |
-| `examples.md` | 2 real autopsies of real calls, deliberately lost against an AI buyer persona: one killed on the seller's 2nd sentence, one killed by the seller's final sentence. Full transcripts included |
+| `examples.md` | 2 real autopsies of real calls, deliberately lost against an AI buyer persona: one killed 23 seconds in, one killed by the seller's own final question after 11 good minutes. Full transcripts included |
 | `reference/state-machine.md` | The 7 stages and the observable gate condition for each |
 | `reference/failure-modes.md` | The named deaths, stage by stage, plus the symptom-to-cause lookup table |
 | `reference/benchmarks.md` | What passed gates sound like on a real winning tape, so faked is distinguishable from passed |

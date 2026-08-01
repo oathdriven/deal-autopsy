@@ -88,6 +88,18 @@ the prospect learns the price is soft and stalls to test it.
 Nobody asked anybody to do anything. Downstream: a warm ghost. Often the visible tail of
 an earlier skip; check stages 3 and 5 before ruling it the cause.
 
+## Cross-cutting deaths
+
+**The two-week mirage.** A "call me back in 2 weeks" (or any comfortable-distance
+callback) accepted as if it were progress. It is a no wearing a calendar: the stall
+costs the prospect nothing, resets the seller's leverage to zero, and almost never
+survives the 2 weeks. Where it kills depends on the spade: if no commitment was ever
+banked, the death is stage-3 (the stall could not be called out because there was
+nothing to call it out against); if the commitment WAS banked and the seller accepted
+the stall anyway, the death is stage-5 territory, an unflushed or unhandled stack,
+with the spade sitting unused in pocket. Either way, the moment the seller says "what
+day should I call you back," the seller is the one holding the shovel.
+
 ## Cross-cutting reads (symptoms that point backward)
 
 These are the things sellers bring in as "the reason it died." They are almost never the
