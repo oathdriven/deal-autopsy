@@ -19,6 +19,11 @@
    not the loudest one. The earliest one. Causality flows forward: every stage is
    insurance for a later stage, so the first unpaid premium is where the loss originates.
    If 2 gates look equally broken, the earlier one wins. Always rule exactly 1 cause.
+   One filter before ruling: a skipped early gate the call visibly SURVIVED (the
+   prospect stayed engaged past it) is recorded in the ledger but not ruled. Rule the
+   earliest skip whose symptom chain actually reaches the observed death (step 6).
+   Skipping rapport does not kill a call whose prospect said "go ahead"; whatever
+   killed it came after.
 
 4. **Order is the default path, but the test is clearance, not sequence.** A skilled
    seller sometimes clears gates out of order and still closes; that is a live patient,
