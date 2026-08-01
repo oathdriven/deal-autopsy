@@ -71,6 +71,23 @@ and a **confidence** note stating the one thing that could change the ruling.
 | `reference/failure-modes.md` | The named deaths, stage by stage, plus the symptom-to-cause lookup table |
 | `reference/benchmarks.md` | What passed gates sound like on a real winning tape, so faked is distinguishable from passed |
 
+## Receipts: how this was validated
+
+- The 2 example bodies are real calls, really dialed and really lost, by a seller who
+  closes for a living, with 1 planted mistake per call. Each ruling was checked
+  against the planted ground truth before shipping, and matched (stage-2 and stage-5).
+- The first body exposed a flaw in the method: the strict "first skipped gate" rule
+  would have ruled a rapport skip that the call visibly survived. The rule was
+  corrected (the survived-skip filter in rules.md) before the first ruling shipped.
+  Both the flaw and the fix are visible in the commit history.
+- The folder was then walk-tested by an AI agent given zero context, which had to
+  orient, explain the tool, and predict its refusal behavior from the files alone. It
+  passed comprehension and caught a list of real defects (a citation to a
+  then-nonexistent failure mode, uncheckable timestamps, output-contract drift), each
+  fixed in the history.
+- Final gate before submission: the folder was loaded into a fresh Claude project, the
+  way a stranger would use it, and fed a transcript it had never seen.
+
 ## Where the ladder comes from
 
 The state machine is the CommitToClose framework: sales as a state machine, not a
